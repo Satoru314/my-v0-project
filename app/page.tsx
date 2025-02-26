@@ -43,7 +43,7 @@ export default function HomePage() {
 
             <Card className="flex-1">
               <CardHeader>
-                <CardTitle>VRChat</CardTitle>
+                <CardTitle>最近の遊び</CardTitle>
               </CardHeader>
               <CardContent>
                 <Image src="/VRChat_2024-07-24_09-54-40.329_1920x1080.png" alt="説明文" width={1920} height={1080} className="rounded-lg w-full"/>
