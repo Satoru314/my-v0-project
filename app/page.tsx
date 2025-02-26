@@ -71,7 +71,7 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                お問い合わせは、以下のメールアドレスまでお願いします。
+                以下のメールアドレスまでお願いします。
               </p>
               <Button variant="outline">
                 <Mail className="mr-2 h-4 w-4" />
