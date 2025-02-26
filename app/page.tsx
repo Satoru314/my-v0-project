@@ -43,23 +43,25 @@ export default function HomePage() {
 
             <Card className="flex-1">
               <CardHeader>
-                <CardTitle>作ったもの</CardTitle>
+                <CardTitle>VRChat</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <BookOpen className="mr-2 h-5 w-5 text-blue-500" />
-                    <span>神戸大学授業レビュー閲覧サイト「えー授業」バックエンド（2025年）</span>
-                  </li>
-                </ul>
+                <Image src="/VRChat_2024-07-24_09-54-40.329_1920x1080.png" alt="説明文" width={1920} height={1080} className="rounded-lg w-full"/>
               </CardContent>
             </Card>
           </div>
           
           <Card className="mt-6">
+            <CardHeader>
+              <CardTitle>作ったもの</CardTitle>
+            </CardHeader>
             <CardContent>
-            <Image src="/VRChat_2024-07-24_09-54-40.329_1920x1080.png" alt="説明文" width={1920} height={1080} />
-
+              <ul className="space-y-2">
+                <li className="flex items-start">
+                  <BookOpen className="mr-2 h-5 w-5 text-blue-500" />
+                  <span>神戸大学授業レビュー閲覧サイト「えー授業」バックエンド（2025年）</span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
 
