@@ -1,7 +1,8 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Mail, MapPin } from 'lucide-react'
+import Image from 'next/image'
 
 export default function HomePage() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex items-center space-x-4">
                   <Avatar className="w-20 h-20">
-                    <AvatarImage src="/placeholder.svg?height=80&width=80" alt="木村覚" />
+                    {/* <AvatarImage src="/placeholder.svg?height=80&width=80" alt="木村覚" /> */}
                     <AvatarFallback>木村</AvatarFallback>
                   </Avatar>
                   <div>
@@ -54,6 +55,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
           </div>
+          
+          <Card className="mt-6">
+            <CardContent>
+            <Image src="/VRChat_2024-07-24_09-54-40.329_1920x1080.png" alt="説明文" width={1920} height={1080} />
+
+            </CardContent>
+          </Card>
 
           <Card className="mt-6">
             <CardHeader>
