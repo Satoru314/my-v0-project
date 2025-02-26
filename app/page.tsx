@@ -32,7 +32,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  2005年生まれ。現在は大学生として学びながら、学生団体A4でweb開発を勉強中。
+                  2005年生まれ。現在は神戸大学で大学生をしながら、学生団体A4でweb開発を勉強中。
                 </p>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <MapPin className="mr-2 h-4 w-4" />
@@ -43,7 +43,7 @@ export default function HomePage() {
 
             <Card className="flex-1">
               <CardHeader>
-                <CardTitle>VRChat</CardTitle>
+                <CardTitle>最近の遊び</CardTitle>
               </CardHeader>
               <CardContent>
                 <Image src="/VRChat_2024-07-24_09-54-40.329_1920x1080.png" alt="説明文" width={1920} height={1080} className="rounded-lg w-full"/>
